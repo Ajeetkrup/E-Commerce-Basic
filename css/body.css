@@ -1,0 +1,38 @@
+.container{
+    min-height: 78vh;
+}
+.bg-img{
+    margin: 12px auto;
+    width: 80vw;            
+}
+.bg-img img{
+    margin: auto;
+    height: 377px;
+    width: 80vw;
+}
+.card{
+    margin: 0 auto 5px;
+    width: 85vw;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1px;
+}
+p{
+    font-size: 14px;
+}
+.card-item .image img{
+    height: 92px;
+    width: 120px;
+}
+.card-item:hover{
+    border: 0.1px solid black;
+    cursor: pointer;
+}
